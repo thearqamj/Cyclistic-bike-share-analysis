@@ -59,5 +59,5 @@ This is the most crucial step of data analysis. Here I combined the data using M
 
 ## Merging Data Sets
 
-SQL Query: [Data Processing]([docs/UserGuide.pdf](https://github.com/thearqamj/Cyclistic-bike-share-analysis/blob/main/Data%20Processing))
+SQL Query: [Data Processing](https://github.com/thearqamj/Cyclistic-bike-share-analysis/blob/main/Data%20Processing)
 12 csv files are uploaded as tables in the dataset '2022_tripdata'. Another table named "combined_data" is created, containing 5,667,717 rows of data for the entire year.
