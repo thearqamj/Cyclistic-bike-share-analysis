@@ -1,4 +1,4 @@
-![image](https://github.com/thearqamj/Cyclistic-bike-share-analysis/assets/135017364/897f3bda-9001-4f94-8dd7-a39ee93c0ad2)![image](https://github.com/thearqamj/Cyclistic-bike-share-analysis/assets/135017364/9080f5d0-5a59-4930-8202-e020561a0819)## Cyclistic-bike-share-analysis
+## Cyclistic-bike-share-analysis
 This project delves into the operational data of Cyclistic, a bike-share company, to uncover valuable insights and drive strategic decision-making. By applying the data analysis process, the project identifies user patterns, optimizes station utilization, and enhances overall efficiency.
 
 
