@@ -39,7 +39,12 @@ Devise marketing strategies to convert casual riders to annual members.
 
 Here the key stakeholders are director of marketing and the consumers.
 
+Three questions will guide the future marketing program:
 
+How do annual members and casual riders use Cyclistic bikes differently?
+Why would casual riders buy Cyclistic annual memberships?
+How can Cyclistic use digital media to influence casual riders to become members?
+Moreno has assigned me the first question to answer: How do annual members and casual riders use Cyclistic bikes differently?
 
 ## STEP 02: PREPARE
 
