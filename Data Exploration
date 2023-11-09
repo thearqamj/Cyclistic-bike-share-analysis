@@ -1,0 +1,4 @@
+
+SELECT column_name, data_type
+FROM `2022_tripdata`.INFORMATION_SCHEMA.COLUMNS
+WHERE table_name = 'combined_data';
