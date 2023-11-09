@@ -65,5 +65,32 @@ SQL Query: [Data Processing](https://github.com/thearqamj/Cyclistic-bike-share-a
 
 ### Data Explorations
 
+Before proceeding to the Data Cleaning step, it is necessary to explore the data, become familiar with its content, and identify any inconsistencies.
+
+#### Observations:
+
+1. The table below shows the all column names and their data types. The ride_id column is our primary key.
 
 ![image](https://github.com/thearqamj/Cyclistic-bike-share-analysis/assets/135017364/102df164-b3b8-415a-9064-096b4d1aaac0)
+
+2. The following table shows number of null values in each column.
+   
+![image](https://github.com/thearqamj/Cyclistic-bike-share-analysis/assets/135017364/722d2646-4a22-4253-b544-8b5befcfb5a6)
+
+3. As ride_id has no null values, let's use it to check for duplicates.
+
+![image](https://github.com/thearqamj/Cyclistic-bike-share-analysis/assets/135017364/36c66089-df36-468e-97c3-98a202ce77e8)
+
+4. All ride_id values have length of 16 so no need to clean it.
+
+5. There are 3 unique types of bikes(rideable_type) in our data.
+
+![image](https://github.com/thearqamj/Cyclistic-bike-share-analysis/assets/135017364/d4005095-77ff-4675-8ee2-c7cdef121150)
+
+6. The started_at and ended_at shows start and end time of the trip in YYYY-MM-DD hh:mm:ss UTC format. New column ride_length can be created to find the total trip duration. There are 5360 trips which has duration longer than a day and 122283 trips having less than a minute duration or having end time earlier than start time so need to remove them. Other columns day_of_week and month can also be helpful in analysis of trips at different times in a year.
+
+7. Total of 833064 rows have both start_station_name and start_station_id missing which needs to be removed.
+
+8. Total of 892742 rows have both end_station_name and end_station_id missing which needs to be removed.
+
+9. Total of 5858 rows have both end_lat and end_lng missing which needs to be removed.
