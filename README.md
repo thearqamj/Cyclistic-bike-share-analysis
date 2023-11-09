@@ -1,4 +1,4 @@
-## Cyclistic-bike-share-analysis
+![image](https://github.com/thearqamj/Cyclistic-bike-share-analysis/assets/135017364/897f3bda-9001-4f94-8dd7-a39ee93c0ad2)![image](https://github.com/thearqamj/Cyclistic-bike-share-analysis/assets/135017364/9080f5d0-5a59-4930-8202-e020561a0819)## Cyclistic-bike-share-analysis
 This project delves into the operational data of Cyclistic, a bike-share company, to uncover valuable insights and drive strategic decision-making. By applying the data analysis process, the project identifies user patterns, optimizes station utilization, and enhances overall efficiency.
 
 
@@ -94,3 +94,9 @@ Before proceeding to the Data Cleaning step, it is necessary to explore the data
 8. Total of 892742 rows have both end_station_name and end_station_id missing which needs to be removed.
 
 9. Total of 5858 rows have both end_lat and end_lng missing which needs to be removed.
+
+10. Member_casual column has 2 uniqued values as member or casual rider.
+
+![image](https://github.com/thearqamj/Cyclistic-bike-share-analysis/assets/135017364/0ce57a9d-2ad7-43c8-b945-1cfdefa74bbc)
+
+11. Columns that need to be removed are start_station_id and end_station_id as they do not add value to analysis of our current problem. Longitude and latitude location columns may not be used in analysis but can be used to visualise a map.
