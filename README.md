@@ -105,3 +105,13 @@ Before proceeding to the Data Cleaning step, it is necessary to explore the data
 ![image](https://github.com/thearqamj/Cyclistic-bike-share-analysis/assets/135017364/0ce57a9d-2ad7-43c8-b945-1cfdefa74bbc)
 
 11. Columns that need to be removed are start_station_id and end_station_id as they do not add value to analysis of our current problem. Longitude and latitude location columns may not be used in analysis but can be used to visualise a map.
+
+## Data Cleaning
+
+SQL Query: [Data Cleaning] (https://github.com/thearqamj/Cyclistic-bike-share-analysis/blob/main/Data%20Cleaning)
+
+All the rows having missing values are deleted.
+3 more columns ride_length for duration of the trip, day_of_week and month are added.
+Trips with duration less than a minute and longer than a day are excluded.
+Total 1,375,912 rows are removed in this step.
+
