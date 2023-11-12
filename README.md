@@ -115,4 +115,11 @@ SQL Query: [Data Cleaning](https://github.com/thearqamj/Cyclistic-bike-share-ana
 3. Trips with duration less than a minute and longer than a day are excluded.
 4. Total 1,375,912 rows are removed in this step.
 
+## STEP 04: ANALYZE
+SQL Query: [Data Analysis](https://github.com/thearqamj/Cyclistic-bike-share-analysis/new/main)
 
+
+The data is stored appropriately and is now prepared for analysis. I queried multiple relevant tables for the analysis and visualized them in Tableau.
+The analysis question is: How do annual members and casual riders use Cyclistic bikes differently?
+
+First of all, member and casual riders are compared by the type of bikes they are using.
