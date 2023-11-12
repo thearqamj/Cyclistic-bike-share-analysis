@@ -110,8 +110,9 @@ Before proceeding to the Data Cleaning step, it is necessary to explore the data
 
 SQL Query: [Data Cleaning](https://github.com/thearqamj/Cyclistic-bike-share-analysis/blob/main/Data%20Cleaning)
 
-All the rows having missing values are deleted.
-3 more columns ride_length for duration of the trip, day_of_week and month are added.
-Trips with duration less than a minute and longer than a day are excluded.
-Total 1,375,912 rows are removed in this step.
+1. All the rows having missing values are deleted.
+2. 3 more columns ride_length for duration of the trip, day_of_week and month are added.
+3. Trips with duration less than a minute and longer than a day are excluded.
+4. Total 1,375,912 rows are removed in this step.
+
 
