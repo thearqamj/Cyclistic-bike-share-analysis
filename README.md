@@ -115,7 +115,7 @@ SQL Query: [Data Cleaning](https://github.com/thearqamj/Cyclistic-bike-share-ana
 3. Trips with duration less than a minute and longer than a day are excluded.
 4. Total 1,375,912 rows are removed in this step.
 
-## STEP 04: ANALYZE
+## STEP 04 & 05: ANALYZE & SHARE
 SQL Query: [Data Analysis](https://github.com/thearqamj/Cyclistic-bike-share-analysis/new/main)
 
 
@@ -169,3 +169,12 @@ Similar trend can be observed in ending station locations. Casual riders end the
 |Travel 2 times longer but less frequently than members.|Travel more frequently but shorter rides (approximately half of casual riders' trip duration).|
 |Start and end their journeys near parks, museums, along the coast and other recreational sites.|Start and end their trips close to universities, residential and commercial areas.|  
   
+## STEP 06: ACT
+
+After identifying the differences between casual and member riders, marketing strategies to target casual riders can be developed to persuade them to become members.
+
+#### Recommendations:
+
+1. Marketing campaigns might be conducted in spring and summer at tourist/recreational locations popular among casual riders.
+2. Casual riders are most active on weekends and during the summer and spring, thus they may be offered seasonal or weekend-only memberships.
+3. Casual riders use their bikes for longer durations than members. Offering discounts for longer rides may incentivize casual riders and entice members to ride for longer periods of time.
